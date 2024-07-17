@@ -1,0 +1,120 @@
+
+body{
+background-color:#D5FFFF ;	
+}
+.main-container{
+	width: 900px;
+	height: 650px;
+	margin: 0 auto;
+	border-radius: 8px;
+	background-color: white ;
+	font-family: georgia;
+	padding: 20px;
+	margin-bottom: 40px;
+}
+.top{
+	padding: 30px;
+	
+}
+.sr{
+	display: flex;
+	justify-content:space-between ;
+	gap:20px;
+	margin-bottom:20px;
+}
+.search{
+	display: flex;
+	border: 1px solid lightgray;
+	width: 200px;
+	height: 40px;
+	border-radius:3px;
+	justify-content: center;
+	align-items: center;
+
+}
+.search input{
+	border: none;
+	outline: 0;
+}
+
+.top-right{
+	display: flex;
+	gap: 10px;
+	padding: 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+.top-right a{
+	text-decoration: none;
+	color: black;
+	padding-bottom: 0;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.top-right a:hover{
+	border-radius:5px;
+	background-color: slateblue;
+	padding: 0 5px 0;
+	color: white;
+	transition: 1s;
+	align-items: center;
+	justify-content: center;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr ;
+	gap: 20px;
+	font-size: 15px;
+	padding: 0 30px;
+}
+
+img{
+	border-radius: 50px;
+}
+
+.lelah {
+padding: 10px;
+border-radius: 15px;
+width: 250px;
+display:flex; 
+gap: 15px;
+background-color:rgba(0, 0, 255, 0.02);
+height: 150px;
+}
+
+.lelah h4{
+ margin-bottom: 0;
+
+}
+
+.lelah p{
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+.lelah:hover{
+	box-shadow: 1px 1px 15px grey;
+}
+
+.lelah span{
+	border: 1px solid lightgray;
+	border-radius: 8px;
+	font-size: 11px;
+	padding: 5px;
+	outline: 0;
+	color: blue;
+	margin-bottom: 10px;
+
+	
+}
+
+
+.items p{
+	margin-bottom: 10px;
+	
+}
